@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Chat App</title>
+</head>
+<body>
+    <h1>My Chat App</h1>
+    <form action="{{ url_for('chat') }}">
+        <div class="">
+            <label for="">Enter your username:</label>
+            <input type="text" name="username" id="">
+        </div>
+        <div class="">
+            <label for="">Enter room id:</label>
+            <input type="text" name="room" id="">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
