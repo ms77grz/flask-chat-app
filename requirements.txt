@@ -1,5 +1,5 @@
 flask
 flask-socketio
 eventlet
-pymongoflask-login
+pymongo
 flask-login
